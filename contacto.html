@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/Inicio.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <script src='js/contacto.js'></script>
+  </head>
+  <body>
+
+    
+    <header>
+      <div class="contenidoheader">
+        <div class="izquierdaheader">
+          <img src="otros/coop.png" alt="logo" class="logo">
+          </div>
+          <div class="derechaheader display links fadeInRight animated">
+              <a href="inicio.html">Inicio</a>
+              <a href="nosotros.html">Nosotros</a>
+              <a href="precios.html">Servicios</a>
+              <a class="cta" href="contacto.html"><button class="btn btn1">Contacto</button></a>
+        </div>
+  </header >
+
+  <div class="contenidoconsulta">
+    <div style="text-align:center">
+      <h2>Contactenos, dejenos su mensaje.</h2>
+      <p>Cualquier consulta es bienvenida.</p>
+    </div>
+    <div class="wrap">
+      <div class="columna">
+        <img src="otros/mapa.jpg" style="width:100%">
+        <h1 style="text-align:center">El Callao 1331, B1615DDB Grand Bourg, Buenos Aires</h1>
+        <p style="text-align:center">esto es momenteaneo hasta agregar la api de google maps</p> 
+      </div>
+      <div class="columna">
+        <div id="error_mensaje"></div>
+        <form id="contacto" onsubmit="return validate();">
+          <label>Nombre</label>
+          <input type="text" class="txt" id="nombre" placeholder="Su nombre...">
+          <label>Apellido</label>
+          <input type="text" class="txt" id="apellido" placeholder="Su apellido...">
+          <label>Numero</label>
+          <input type="text" class="txt" id="numero" placeholder="Su numero...">
+          <label>Email</label>
+          <input type="email" class="txt" id="email" placeholder="Su email...">
+          <label>Motivo</label>
+          <select>
+            <option value="nada"></option>
+            <option value="ventas">Ventas</option>
+            <option value="consultas">Consultas</option>
+            <option value="dificultades">Dificultades Tecnicas</option>
+          </select>
+          <label>Mensaje</label>
+          <textarea id="mensaje" placeholder="Escriba su consulta" style="height:170px"></textarea>
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="contenidopie">
+      <div class="izquierda">
+        <img src="otros/coop.png" alt="logo" class="logo">
+        <div class="redes">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="copy">© 2020. Alumno: Alejo Totaro DNI: 41100882</p>
+      </div>
+
+      <div class="derecha">
+        <h1>Nuestras Noticias</h1>
+        <div class="border"></div>
+        <p>Ingresa tu Email para enterarte de las ultimas noticias</p>
+        <form action="" class="display">
+          <input type="Email" class="txtb" placeholder="Ingresa tu correo electronico">
+          <button class="btn btn1">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  </body>
+  
+</html>

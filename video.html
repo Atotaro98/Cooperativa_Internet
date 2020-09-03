@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Cuarentena</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/Inicio.css">
+    <link rel="stylesheet" href="css/video.css">
+</head>
+
+
+<header>
+    <div class="contenidoheader">
+      <div class="izquierdaheader">
+        <img src="otros/coop.png" alt="logo" class="logo">
+        </div>
+        <div class="derechaheader display links fadeInRight animated">
+            <a href="inicio.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="precios.html">Servicios</a>
+            
+            <a href="contacto.html"><button class="btn btn1">Contacto</button></a>
+          
+      </div>
+</header >
+
+
+
+<body>
+
+    
+        
+        
+<div id="video">
+            <video src="otros/video.mp4" id="botcarryvideo" ></video>
+            <nav id="boton_video">
+                <button id="frenar" onclick="frenar()"><span class="icon-stop"></span></button>
+                <button id="atras" onclick="saltar(-2)"><span class="icon-backward"></span></button>
+                <button id="adelante" onclick="saltar(2)"><span class="icon-forward2"></span></button>
+                <button id="reproducir" onclick="reproducir()"><span class="icon-play2"></span></button>
+
+            </nav>
+
+            <button id="completa"   onclick="goFullscreen('player'); return false">
+              !Miralo en Pantalla Completa!
+            </button>
+    
+        </div>
+        
+              
+        
+     
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <script src="js/video.js"></script>
+
+        </body>
+
+
+
+
+
+
+
+    <footer>
+        <div class="contenidopie">
+          <div class="izquierda">
+            <img src="otros/coop.png" alt="logo" class="logo">
+            <div class="redes">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="copy">© 2020. Alumno: Alejo Totaro DNI: 41100882</p>
+          </div>
+  
+          <div class="derecha">
+            <h1>Nuestras Noticias</h1>
+            <div class="border"></div>
+            <p>Ingresa tu Email para enterarte de las ultimas noticias</p>
+            <form action="" class="display">
+              <input type="Email" class="txtb" placeholder="Ingresa tu correo electronico">
+              <button class="btn btn1">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+
+</html>
