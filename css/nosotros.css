@@ -1,0 +1,114 @@
+section{
+    padding: 0 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contenido{
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.barra1{
+    width: 100%;
+  height: 4px;
+  background: #fc5c65;
+}
+
+
+.barra{
+    width: 100px;
+  height: 4px;
+  background: #fc5c65;
+}
+
+.titu{
+    width: 75%;
+    font-size: 40px;
+}
+.p1{
+ font-size: 25px;
+ width: 100%;
+}
+
+.p2{
+    width: 100%;
+    font-size: 30px;   
+}   
+
+
+@media (max-width:1500px) {
+    #lienzo{
+        width: 80px;
+    }
+
+    #lienzo2{
+        width: 80px;
+    }
+}
+
+@media (max-width:960px) {
+    .contenido{
+      max-width: 600px;
+    }
+
+    .contenido h2{
+        font-size: 20px;
+    }
+
+    .contenido .p1{
+        font-size: 10px;
+    }
+
+    .contenido .p2{
+        font-size: 15px;
+    }
+
+    .changeBg{
+        max-width: 600px;
+    }
+
+    #lienzo{
+        width: 30px;
+    }
+
+    #lienzo2{
+        width: 30px;
+    }
+    
+  }
+  
+  
+  @media (max-width:700px){
+
+
+   
+    
+  }
+
+
+                /* EFECTO DE CAMBIAR FONDO - EL % ES 100% Y SE DIVIDE ENTRE LA CANTIDAD DE IMAGENES Y EL ANIMATION-DURATION SE DIVIDE TAMBIEN ENTRE LAS 4 */
+
+/* @-webkit-keyframes changeBg     
+{
+    0%   {background-image: url("1.jpg");}
+    25%  {background-image: url("2.jpg");}
+    50%  {background-image: url("3.jpg");}
+    100% {background-image: url("4.jpg");}
+ }
+  
+ section
+ {
+    background-size: cover; 
+    -webkit-animation: changeBg 60s infinite;
+ } */
+
+
+ 

@@ -1,0 +1,76 @@
+/* MARGIN 0 AUTO, CONFIGURA EL MARGEN DERECHA E IZQ AUTOMATICAMENTE  */
+.contenedor{
+min-height: 70vh;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+}
+.texto-centrado{
+    text-align: center;
+}
+.columna{
+    background: whitesmoke;
+    color: #333;
+    border: 1px solid #333333;
+    margin: 0 auto;
+    padding: 10px;
+    /* border-radius: 7px; poner bordes curvos */
+    border-radius: 7px;
+    /* box-shadow: 10px -10px 5px #888888; SI ESTA EN NEGATIVO CAMBIA EL LADO DE LA SOMBRA */
+    box-shadow: 10px 10px 5px #888888;
+    width: 23%;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.precio{
+    font-size: 57px;
+    color: #fc5c65;
+}
+.boton-precio{
+    background: #fc5c65;
+    display: block;
+    padding: 10px;
+    color: white;
+    /* TEXT DECORATION BORRA LA LINEA  */
+    text-decoration: none;
+    border-radius: 4px;
+    /* SEPARA EL BOTON DEL MARGEN */
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.columna h2{
+    margin: 25px;
+}
+
+.columna p{
+    margin: 25px;
+}
+
+.columna a{
+    margin: 25px;
+}
+
+.boton-precio:hover{
+    opacity: 0.7;
+    
+}
+
+@media (max-width:960px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:700px){
+        .columna{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+}

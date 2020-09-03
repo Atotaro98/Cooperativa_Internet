@@ -1,0 +1,164 @@
+#contenedor{
+	width:100%;
+	margin:auto;
+	padding-top:50px;
+	min-height: 50vh;
+
+	
+}
+
+#cajaformulario{
+	position: center;
+	padding:20px;
+		
+}
+
+#borrar{
+	background-color:#fc5c64;
+	border-radius:35px;
+	border:3px solid #fc5c64;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	font-weight:bold;
+	font-style:italic;
+	padding:10px 26px;
+	text-decoration:none;
+	position: relative;
+	left: 92%;
+}
+
+#borrar_todo{
+	background-color:#fc5c64;
+	border-radius:35px;
+	border:3px solid #fc5c64;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	font-weight:bold;
+	font-style:italic;
+	padding:10px 26px;
+	text-decoration:none;
+	position: relative;
+	left: 90%;
+}
+
+
+
+#grabar{
+	background-color:#fc5c64;
+	border-radius:35px;
+	border:3px solid #fc5c64;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:26px;
+	font-weight:bold;
+	font-style:italic;
+	padding:15px 76px;
+	text-decoration:none;
+	text-shadow:0px 4px 0px #fc5c64;
+}
+
+#grabar:hover{
+	background-color:#f58086;
+}
+
+#grabar:active{
+	position:relative;
+	top:1px;
+}
+
+#urgencia, #texto, #clave, #fecha{
+
+	border-radius:35px;
+	border:3px solid #fc5c64;
+	display:inline-block;
+	cursor:pointer;
+	font-size:16px;
+	font-weight:bold;
+	font-style:italic;
+	padding:15px 76px;
+	text-decoration:none;
+}
+
+#k{
+	font-size:22px;
+	font-weight:bold;
+	font-style:italic;
+}
+
+
+
+
+#cajadatos{
+	float:bottom;
+	padding:70px;
+	
+}
+
+#clave, #valor{
+	width:180px;
+}
+
+#cajadatos div{
+	padding:15px;
+	border-bottom:3px solid #fc5c65	;
+	font-size:22px;
+	font-weight:bold;
+	font-style:italic;
+}
+
+#texto, #clave, #urgencia{ font-size: 18px; }
+
+
+@media (max-width: 1025px){
+	#borrar, #borrar_todo{
+		margin-left: -20%;
+	}
+}
+
+
+
+
+@media (max-width:768px){
+	#texto, #clave, #urgencia, #k, #urgencia, #texto, #clave, #fecha, #grabar, #borrar, #borrar_todo, #cajadatos div{
+		font-size: 18px;
+	}
+
+	#grabar,#borrar, #borrar_todo,#urgencia, #texto, #clave, #fecha{
+		padding: 12px 24px;
+	}
+
+	#borrar, #borrar_todo{
+		padding: 8px 16px;
+		margin-left: -20%;
+	}
+
+
+
+
+  }
+
+
+
+
+  @media (max-width:418px){
+	#texto, #clave, #urgencia, #k, #urgencia, #texto, #clave, #fecha, #grabar, #borrar #borrar_todo, #cajadatos div{
+		font-size: 14px;
+	}
+
+	#borrar, #borrar_todo{
+		padding: 4px 10px;
+		margin-left: -20%;
+		font-size: 10px;
+	}
+
+  }
+
+
+
+
+

@@ -1,0 +1,360 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+html {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  background: white;
+}
+footer{
+  background: #f1f1f1;
+  padding: 90px 0;
+  border-top: solid;
+    border-color: black;
+}
+header{
+  background: #f1f1f1;
+  padding: 60px 0;
+  border-bottom: solid;
+    border-color: black;
+}
+
+.contenidopie{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  /* WRAP REVERSE HACE AL REVES EL ITEM DE LA IZQ PASA ABAJO MIENTRAS QUE LOS DE LA DERECHA SE AGRUPAN ARRIBA DE EL */
+}
+.contenidoheader{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; HACE QUE EL ITEM DE LA IZQ SE AGRUPE ARRIBA Y LOS DE LA DERECHA UNO A BAJO DEL OTRO */
+  flex-wrap: wrap;
+}
+
+.logo{
+  width: 180px;
+}
+
+.redes{
+  margin: 20px 0;
+}
+
+.redes a{
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.redes a:hover{
+  color: #fc5c65;
+}
+
+.derecha h1{
+  font-size: 26px;
+}
+
+.border{
+  width: 100px;
+  height: 4px;
+  background: #fc5c65;
+}
+
+.display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: #ddd;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+.btnpie{
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #f1f1f1;
+  background: #fc5c65;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer; 
+}
+
+.btnpie:hover{
+  opacity: 0.7;
+}
+        /* ANIMACION BOTON DE HEADER */
+
+
+        .btn{
+          border: 1px solid #fc5c65;
+          background: none;
+          padding: 18px 40px;
+          font-size: 16px;
+          font-weight: 700;
+          border-radius: 30px;
+          cursor: pointer;
+          margin: 10px;
+          transition: 0.8s;
+          position: relative;
+          overflow: hidden;
+        }
+        .btn1{
+          color: #fc5c65;
+        }
+        
+        .btn1:hover{
+          color: #fff;
+          opacity: .7;
+        }
+       
+        .btn::before{
+          content: "";
+          position: absolute;
+          left: 0;
+          width: 100%;
+          height: 0%;
+          background: #fc5c65;
+          z-index: -1;
+          transition: 0.8s;
+        }
+        .btn1::before{
+          top: 0;
+          border-radius: 0 0 50% 50%;
+        }
+       
+       
+        .btn1:hover::before{
+          height: 180%;
+        }
+         
+            /* TERMINA ANIMACION BOTON DE HEADER */
+
+
+            
+.contenido{
+  min-height: 80vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fondo{
+  display: flex;
+  width: 500px;
+  
+}
+.links a{
+  text-decoration: none;
+  font-weight: 500;
+    font-size: 20px;
+    color: #001a21;
+    transition: all 0.5s ease 0s;
+    padding: 0px 20px;
+}
+.links a:hover{
+  color: #fc5c65;
+}
+
+
+
+
+
+
+
+@media (max-width:960px) {
+  .contenido{
+    max-width: 600px;
+  }
+  .izquierdaheader{
+    width: 100%;
+    text-align: center;
+    margin-top: -40px;
+  }
+  .derechaheader{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .blogpost{
+    width: 45%;
+  }
+  
+
+  .derecha{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .izquierda{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+@media (max-width:700px){
+  .btn, .contacto1{
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    }
+
+    .blogpost{
+      width: 100%;
+    }
+}
+
+
+
+
+
+
+.contenedor2{
+  padding: 50px 0px;
+  width: 80%;
+  margin: 0 auto;
+}
+.titulonoticias{
+  font-size: 44px;
+  font-weight: 600;
+  text-align: left;
+  color: #333;
+  margin-left: 15%;
+  margin-top: 1%;
+
+}
+
+.display{
+    display: flex;
+    flex-wrap: wrap;
+}
+.texto-centrado{
+    text-align: center;
+}
+
+.span1{
+  padding: 12px 24px;
+  border-radius: 30px;
+  background: #fc5c65;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.barra2{
+  padding: 12px 24px;
+  background: grey;
+  margin-top: -4px;
+}
+
+.link-post{
+  background: #fc5c65;
+    display: block;
+    padding: 4px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.link-post:hover{
+  opacity: 0.8;
+}
+
+
+.columna2{
+  width: 30%;
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: .3s ease;
+  transform: translateY(16px);
+  position: relative;
+  margin: 12px;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.222);
+}
+
+.columna2:hover{
+  transform: translateY(8px);
+}
+
+.columna2 h2{
+  margin: 25px;
+}
+
+.columna2 p{
+  margin: 25px;
+}
+
+.columna2 a{
+  margin: 25px;
+}
+
+
+
+
+@media (max-width:1024px){
+    .columna2{
+        width: 45%;
+        margin-bottom: 20px;
+    }  
+    
+}
+
+
+@media (max-width:768px){
+        .columna2{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        
+}
+
+@media (max-width:360px){
+  
+
+ 
+}

@@ -1,0 +1,184 @@
+
+    @font-face {
+        font-family: 'icomoon';
+        src:  url('iconos/icomoon.eot?j2u08d');
+        src:  url('iconos/icomoon.eot?j2u08d#iefix') format('embedded-opentype'),
+          url('iconos/icomoon.ttf?j2u08d') format('truetype'),
+          url('iconos/icomoon.woff?j2u08d') format('woff'),
+          url('iconos/icomoon.svg?j2u08d#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-"], [class*=" icon-"] {
+        /* use !important to prevent issues with browser extensions that change fonts */
+        font-family: 'icomoon' !important;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      
+      .icon-play2:before {
+        content: "\ea15";
+      }
+      .icon-pause:before {
+        content: "\ea16";
+      }
+      .icon-stop:before {
+        content: "\ea17";
+      }
+      .icon-backward:before {
+        content: "\ea1a";
+      }
+      .icon-forward2:before {
+        content: "\ea1b";
+      }
+
+
+
+      #video{
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 20px;
+      }
+
+      #botcarryvideo{
+          height: 600px;
+          border-radius: 10px;
+          
+          
+          margin: 0 auto;border: 10px double black;
+      }
+
+
+      #frenar{
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        color: black;
+        border-radius: 20px;
+        border-color: black;
+        background-color: #fc5c65;
+      }
+
+      #atras{
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        color: black;
+        border-radius: 20px;
+        border-color: black;
+        background-color: #fc5c65;
+    }
+
+    #adelante{
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        color: black;
+        border-radius: 20px;
+        border-color: black;
+        background-color: #fc5c65;
+    }
+
+    #reproducir{
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        color: black;
+        border-radius: 20px;
+        border-color: black;
+        background-color: #fc5c65;
+    }
+
+    #completa{
+        padding: 15px;
+        color: black; 
+        border-color: black;
+        background-color: #fc5c65;
+        margin: 10px;
+        font: initial;
+        border-radius: 20px;
+    }
+
+
+
+
+
+    @media (max-width:1024px){
+        #video{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+
+        #botcarryvideo{
+          width: 400px; 
+          height:220px;
+        }
+      }
+
+
+
+
+
+
+
+
+      @media (max-width:768px){
+        #video{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        #botcarryvideo{
+          width: 500px; 
+          height:300px;
+        }
+
+
+        #frenar{
+          width: 15px;
+          height: 15px;
+         
+        }
+  
+        #atras{
+          width: 15px;
+          height: 15px;
+      }
+  
+      #adelante{
+        width: 15px;
+        height: 15px;
+      }
+  
+      #reproducir{
+        width: 15px;
+        height: 15px;
+      }
+      #completa{
+          padding: 5px;
+
+        }
+
+      }
+
+
+      @media (max-width:414px){
+      
+
+        #botcarryvideo{
+          width: 120px; 
+          height:80px;
+        }
+
+      }
+  
